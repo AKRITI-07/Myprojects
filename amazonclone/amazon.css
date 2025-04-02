@@ -1,0 +1,419 @@
+*{
+    margin:0;
+    font-family: Arial;
+    border:border-box;
+}
+.navbar
+{
+    height:60px;
+    background-color:#0F1111;
+    color:white;
+    display:flex;
+    align-items: center;
+    justify-content:space-evenly;
+
+}
+.navlogo
+{
+    height:50px;
+    width:100px;
+
+}
+.logo
+{
+  background-image: url("amazon.jpg");
+  background-size:cover;
+  height:50px;
+  width:100px;
+
+
+}
+.border
+{
+     border:1.5px solid transparent;
+
+}
+.border:hover{
+    border:1.5px solid white;
+}
+.address
+{
+    align-items: center;
+}
+.addicon
+{
+    display:flex;
+    align-items: center;
+    left:15px;
+}
+.firstadd
+{
+    color:#cccccc;
+    font-size:0.85rem;
+    left:52.64px;
+    
+
+}
+.secondadd
+{
+    left:52.64px;
+
+}
+.searchbox
+{
+    display:flex;
+    justify-content: space-evenly;
+    width:620px;
+    height:40px;
+    border-radius:3px;
+
+}
+.searchselect
+{
+    border-top-left-radius:4px ;
+    border-bottom-left-radius:4px ;
+    background-color: #FFFFFF;
+    width:50px;
+    text-align: center;
+    border:none;
+
+}
+.searchinput
+{
+    width:100%;
+    font-size: 1rem;
+    border:none;
+
+}
+.searchicon
+{
+    height:40px;
+    width:45px;
+    justify-content:center;
+    align-items: center;
+    font-size: 2rem;
+    background-color: rgba(252, 181, 59, 0.765);
+    border-top-right-radius:3px ;
+    border-bottom-right-radius:3px;
+    color:black; 
+}
+.sign
+{
+    font-size:12px;
+    font-style: none;
+}
+.acc
+{
+    font-size:14px;
+    font-style: bold;
+}
+
+.re
+{
+    font-size:12px;
+    font-style: none;
+}
+.or
+{
+    font-size: 14px;
+    font-style:bold;
+}
+.cart{
+    height:50px;
+    width:41px;
+    display:flex;
+}
+
+.text
+{
+    font-size:20px;
+    font-weight: 700;
+}
+
+
+
+.panel
+{  
+    height:40px;
+    width:1500px;
+    background-color:#222f3d;
+    color:white;
+    align-items:center;
+    justify-content:space-evenly;
+    display:flex;
+}
+.all
+{
+    display:flex;
+    align-content: center;
+}
+.alli
+{
+    height:14px;
+    width:17px;
+    background-size:contain;
+    align-content: center;
+    justify-content: space-evenly;
+    margin-left:5px;
+    
+}
+.alltext
+{
+    height:12px;
+    width:23px;
+    align-content: center;
+    justify-content: space-evenly;
+    
+}
+.panel-ops
+{
+    width:70%;
+    margin-left: 15px;
+    display:flex;
+    font-size:0.85rem;
+    justify-content: space-evenly;
+   
+}
+.panel-deals
+{
+    font-size: 0.9rem;
+    font-weight: 700;
+    justify-content: end;
+    margin-right:100px;
+    
+}
+
+.hero
+{
+    background-image:url("box1.jpg");
+    background-size: cover;
+    height:350px;
+    display: flex;
+    justify-content: center;
+    align-items:flex-end ;
+}
+.heromssg
+{
+    background-color: #FFFFFF;
+    color:#0F1111;
+    height:40px;
+    width:80%;
+    font-size: 0.85rem;
+    justify-content:center;
+    align-items:center;
+   
+   
+    margin-bottom : 100px;
+
+}
+#herolink
+{
+    color:#007185;
+}
+
+.shop
+{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: pink;
+
+}
+
+.box1
+{
+    height:400px;
+    width:30%;
+    background-color: #FFFFFF;
+    
+    background-image: url("health.jpg");
+    background-size: cover;
+    padding:20px 0px 15px;
+    
+}
+.img1
+{
+    height:300px;
+    margin-left:10px;
+
+    margin-right: 10px;
+}
+
+.box2
+{
+    height:400px;
+    width:30%;
+    background-color: #FFFFFF;
+    
+    background-image: url("JEWELALRY.jpg");
+    background-size: cover;
+    padding:20px 0px 15px;
+
+}
+.img2
+{
+    height:300px;
+    margin-left:10px;
+    margin-right: 10px;
+}
+.box3
+{
+    height:400px;
+    width:30%;
+    background-color: #FFFFFF;
+    
+    background-image: url("f.jpg");
+    background-size:cover;
+    padding:20px 0px 15px;
+
+
+}
+.img3
+{
+    height:300px;
+    
+}
+
+
+
+h2{
+    background-color: #FFFFFF;
+    height:40px;
+
+}
+.box4
+{
+    height:400px;
+    width:30%;
+    background-color: #FFFFFF;
+    
+    background-image: url("box3.jpg");
+    background-size:cover;
+    padding:20px 0px 15px;
+
+
+}
+.img4
+{
+    height:300px;
+    
+}
+.box5
+{
+    height:400px;
+    width:30%;
+    background-color: #FFFFFF;
+    
+    background-image: url("decor.jpeg");
+    background-size:cover;
+    padding:20px 0px 15px;
+
+
+}
+.img5
+{
+    height:300px;
+    
+}
+.box6
+{
+    height:400px;
+    width:30%;
+    background-color: #FFFFFF;
+    
+    background-image: url("kitchen.jpg");
+    background-size:cover;
+    padding:20px 0px 15px;
+
+
+}
+.img6
+{
+    height:300px;
+    
+}
+.shop p
+{
+    color:#007185;
+    height:30px;
+    background-color: #FFFFFF;
+}
+footer
+{
+    margin-top: 15px;
+}
+.foot-panel1
+{
+    background-color:#37475a;
+    color:#FFFFFF;
+    height:50px;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    
+}
+.foot-panel2
+{
+    background-color: #222f3d;
+    color:#FFFFFF;
+    height:500px;
+    display:flex;
+    justify-content: space-evenly ;
+
+}
+.foot-panel2 p
+{
+    background-color: #222f3d;
+    color:#FFFFFF;
+}
+ul
+{
+    margin-top: 20px;
+}
+ul a{
+    display:block; 
+    font-size:0.75rem;
+    margin-top: 10px;
+    color:#dddddd;
+}
+
+.foot-panel3
+{
+    background-color:#222f3d ;
+    color:#FFFFFF;
+    border-top: 0.5px solid white;
+    height: 78px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.foot-panel3 .logo
+
+{
+    background-image: url("hero.jpg");
+     background-size: cover;
+     height: 50px;
+
+}
+.foot-panel4
+{
+    background-color:#0f1111;
+    color:#FFFFFF;
+    
+    
+    height:76px;
+}
+.pages
+{
+    font-size: 0.7rem;
+    text-align: center;
+
+    padding-top:25px;
+}
+.copyright
+{
+    padding-top:5px;  
+    text-align: center;
+    font-size: 0.7rem;
+
+}
